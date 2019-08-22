@@ -1,0 +1,19 @@
+name:                nixops-example
+version:             0.1.0.0
+synopsis:            Nothing is more fun than a festlig hest.
+-- description:
+license:             GPL-3
+license-file:        LICENSE
+-- copyright:
+category:            Web
+build-type:          Simple
+-- extra-source-files:
+cabal-version:       >=1.10
+
+executable nixops-example
+  main-is:             Main.hs
+  -- other-modules:
+  -- other-extensions:
+  build-depends:       base, yesod
+  hs-source-dirs:      src
+  default-language:    Haskell2010

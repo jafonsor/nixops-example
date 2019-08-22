@@ -1,0 +1,4 @@
+*.hi
+*.o
+nixops-example/dist/
+nixops-example/result
